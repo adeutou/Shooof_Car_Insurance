@@ -1,8 +1,8 @@
 # Shooof_Car_Insurance
 Dribble Challenge integration Shooof - Landing page  Car Insurance
 
-Dribble Author: @Rizki Mulyawan
-Image link:  https://dribbble.com/shots/17018302-Shooof-Car-Insurance-Landing-Page
+Dribble Author: @Rizki Mulyawan <br/>
+Image link:  https://dribbble.com/shots/17018302-Shooof-Car-Insurance-Landing-Page <br/>
 
 
 
