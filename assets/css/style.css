@@ -1,0 +1,396 @@
+body{
+    background-color: #E9F9F9;
+    padding: 10px 40px 20px 40px;
+    font-family: Helvetica, sans-serif;
+}
+
+/** Navbar **/
+header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    align-items: center;
+    z-index: 999; 
+}
+
+.hLeft, .hRight{
+    flex: 3;
+    display: flex;
+}
+
+.hRight{
+    justify-content: right;
+}
+
+.logoIc{
+    font-size: 40px;
+    font-family: "Comic Sans Ms";
+    color: lightseagreen;
+}
+
+.textLogo{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hCenter{
+    flex: 6;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menuItem{
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hLogin {
+    display: inline-flex;
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 35px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hGetq{
+    display: inline-flex;
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    color: #2DA097;
+    background-color: #bef3ee;
+    border-radius: 35px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/******* First Section *******/
+
+/*** First Bloc ***/
+.main{
+    display: flex;
+}
+
+.firstSec, .secondSec{
+    flex: 6;
+}
+
+.firstSec{
+    margin-left: 40px;
+}
+
+.firstBloc h1{
+    font-size: 70px;
+}
+
+.firstBlocP{
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+
+.secGetq{
+    display: inline-flex;
+    color: #ffff;
+    background-color: #12403C;
+    width: 180px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 35px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/*** Second Bloc ***/
+.secondBloc{
+    background-color: #2DA097;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 50px;
+    width: 400px;
+}
+
+.secBilan{
+    display: flex;
+    justify-content: center;
+}
+
+.secBilanItem{
+    color: #ffff;
+    margin-right: 20px;
+}
+
+.secRate{
+    background: url("../img/abstrac.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #ffff;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 13px;
+    
+}
+
+/******* Second Section *******/
+
+/*** Second Section First Bloc ***/
+.secondSecFirstBloc{
+    display: flex;
+    background: url("../img/driving.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+
+.card{
+    align-self: flex-end;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: #ffff;
+    height: 220px;
+    width: 250px;
+    padding: 5px 5px 0 5px;
+    margin: 0 0 10px 5px;
+}
+
+.cardButton span{
+    display: inline-flex;
+    flex-direction: row;
+    border: 1px solid #ffff;
+    border-radius: 50%;
+    margin-right: 5px;    
+    width: 10px;
+    height: 10px;
+}
+
+.cardButtonRed{
+    background-color: tomato;
+}
+.cardButtonYellow{
+    background-color: yellow;
+}
+.cardButtonGreen{
+    background-color: green;
+}
+
+.cardBody{
+    margin: 0 0 0 25px;
+}
+
+.cardBodyImg{
+    display: flex;
+}
+
+.cardBodyImg img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.carBodyImgDesc{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.description{
+    font-size: small;
+    font-weight: bold;
+}
+
+.barre{
+    background-color: rgb(202, 199, 199);
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    margin-right: 20px; 
+    width: 70px;  
+    height: 5px;
+    margin-top: 5px;
+}
+
+.cardFooter{
+    margin-top: 15px;
+}
+
+.cardFooterItem{
+    display: flex;
+}
+
+.cardFooterText1, .cardFooterText2{
+    color: grey;
+    font-size: 0.65rem;
+    flex: 6;
+}
+
+.cardFooterText3, .cardFooterText4{
+    font-size: small;
+    font-weight: bold;
+}
+
+.cardFooterText3{
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.cardFooterText3, .cardFooterText4, .cardFooterRadio{
+    flex: 6;
+}
+
+.cardFooterBarre{
+    background-color: rgb(202, 199, 199);
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    margin-right: 20px; 
+    flex: 5;  
+    height: 5px;
+    margin-top: 3px;
+}
+
+.cardFooterRadio{
+    display: flex;
+    align-self: flex-end;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+/*** Second Section Second Bloc ***/
+.secondSecLastBloc{
+    margin-top: 50px;
+}
+
+.lastEltText{
+    font-weight: bold;
+}
+
+.LastEltLogo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lastEltImg{
+    width: 150px;
+    height: auto;
+}
+
+
+/**** Icon ****/
+.hourIcon, .carIcon{
+    color: lightseagreen;
+}
+
+.hourIcon{
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.carIcon{
+    font-size: 30px;
+}
+
+.secRateStarItem{
+    background-color: #00B67B;
+    padding: 2px;
+}
+
+.starIcon{
+    color: #ffff;
+}
+
+.starIconG{
+    color: #03B57B;
+}
+
+
+
+
+/*** Toggle Switch ***/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 14px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 2px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: lightseagreen;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px lightseagreen;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(14px);
+    -ms-transform: translateX(14px);
+    transform: translateX(15px);
+  }
+  
+  /* Rounded Sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
